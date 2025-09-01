@@ -20,21 +20,21 @@ const About = () => {
       title: 'First AI Chip',
       description: 'Launched our first AI-optimized processor, setting new industry standards.',
       icon: Cpu,
-      image: '/src/assets/manufacturing.jpg',
+      image: '/manufacturing.jpg',
     },
     {
       year: '2015',
       title: 'Quantum Leap',
       description: 'Breakthrough in quantum computing integration with traditional semiconductors.',
       icon: Zap,
-      image: '/src/assets/milestone-celebration.jpg',
+      image: '/milestone-celebration.jpg',
     },
     {
       year: '2024',
       title: 'Future Ready',
       description: 'Leading the industry with next-generation neuromorphic processors and edge AI.',
       icon: Shield,
-      image: '/src/assets/office.jpg',
+      image: '/office.jpg',
     }
   ];
 
