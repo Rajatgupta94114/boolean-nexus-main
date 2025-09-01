@@ -51,7 +51,7 @@ const Hero = () => {
                   Boolean
                 </span>
                 <br />
-                <span className="text-foreground">Microchips</span>
+                <span className="text-foreground">Microsystems</span>
               </h1>
             </motion.div>
 
