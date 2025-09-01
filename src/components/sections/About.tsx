@@ -13,7 +13,7 @@ const About = () => {
       title: 'Founded',
       description: 'Boolean Microchips established with a vision to revolutionize semiconductor technology.',
       icon: Globe,
-      image: '/src/assets/office-team.jpg',
+      image: '/office-team.jpg',
     },
     {
       year: '2005',
