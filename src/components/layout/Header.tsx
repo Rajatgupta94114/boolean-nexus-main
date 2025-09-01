@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Menu, X, Cpu } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { useScrollSpy } from '@/hooks/useScrollSpy';
+import booleanLogo from '@/assets/booleanlogo.jpg';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,9 +33,12 @@ const Header = () => {
             whileHover={{ scale: 1.05 }}
             className="flex items-center space-x-2"
           >
-            <Cpu className="w-8 h-8 text-primary glow-primary" />
+            <img 
+              src={booleanLogo} 
+              alt="Boolean Logo" 
+              className="h-16 w-auto object-contain"
+            />
             <span className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-              Boolean
             </span>
           </motion.div>
 
